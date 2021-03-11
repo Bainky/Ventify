@@ -1,0 +1,279 @@
+{
+
+    "anime": {
+        "object": "https://api.computerfreaker.cf/v1/anime",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "dva": {
+        "object": "https://api.computerfreaker.cf/v1/dva",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "baguette": {
+        "object": "https://api.computerfreaker.cf/v1/baguette",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "yuri": {
+        "object": "https://api.computerfreaker.cf/v1/yuri",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "nsfw"
+    },
+
+    "waifu": {
+        "object": "https://waifu.pics/api/sfw/waifu",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "neko": {
+        "object": "https://waifu.pics/api/sfw/neko",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "shinobu": {
+        "object": "https://waifu.pics/api/sfw/shinobu",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "megumin": {
+        "object": "https://waifu.pics/api/sfw/megumin",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "cuddle": {
+        "object": "https://waifu.pics/api/sfw/cuddle",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "cry": {
+        "object": "https://waifu.pics/api/sfw/cry",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "hug": {
+        "object": "https://waifu.pics/api/sfw/hug",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "kiss": {
+        "object": "https://waifu.pics/api/sfw/kiss",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "lick": {
+        "object": "https://waifu.pics/api/sfw/lick",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "pat": {
+        "object": "https://waifu.pics/api/sfw/pat",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "smug": {
+        "object": "https://waifu.pics/api/sfw/smug",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "bonk": {
+        "object": "https://waifu.pics/api/sfw/bonk",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "yeet": {
+        "object": "https://waifu.pics/api/sfw/yeet",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "blush": {
+        "object": "https://waifu.pics/api/sfw/blush",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "smile": {
+        "object": "https://waifu.pics/api/sfw/smile",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "wave": {
+        "object": "https://waifu.pics/api/sfw/wave",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "highfive": {
+        "object": "https://waifu.pics/api/sfw/highfive",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "handhold": {
+        "object": "https://waifu.pics/api/sfw/handhold",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "nom": {
+        "object": "https://waifu.pics/api/sfw/nom",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "bite": {
+        "object": "https://waifu.pics/api/sfw/bite",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "glomp": {
+        "object": "https://waifu.pics/api/sfw/glomp",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "kill": {
+        "object": "https://waifu.pics/api/sfw/kill",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "slap": {
+        "object": "https://waifu.pics/api/sfw/slap",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "happy": {
+        "object": "https://waifu.pics/api/sfw/happy",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "poke": {
+        "object": "https://waifu.pics/api/sfw/poke",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "dance": {
+        "object": "https://waifu.pics/api/sfw/dance",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+    "cringe": {
+        "object": "https://waifu.pics/api/sfw/cringe",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "sfw"
+    },
+
+    "hentai": {
+        "object": "https://api.computerfreaker.cf/v1/hentai",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "nsfw"
+    },
+    "nsfw_waifu": {
+        "object": "https://waifu.pics/api/nsfw/waifu",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "nsfw"
+    },
+    "nsfw_neko": {
+        "object": "https://waifu.pics/api/nsfw/neko",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "nsfw"
+    },
+    "trap": {
+        "object": "https://waifu.pics/api/nsfw/trap",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "nsfw"
+    },
+    "blowjob": {
+        "object": "https://waifu.pics/api/nsfw/blowjob",
+        "attribute": "url",
+        "entity": "anime",
+        "safe": "nsfw"
+    },
+
+    "panda": {
+        "object": "https://some-random-api.ml/img/panda",
+        "attribute": "link",
+        "entity": "animals"
+    },
+    "red_panda": {
+        "object": "https://some-random-api.ml/img/red_panda",
+        "attribute": "link",
+        "entity": "animals"
+    },
+    "koala": {
+        "object": "https://some-random-api.ml/img/koala",
+        "attribute": "link",
+        "entity": "animals"
+    },
+    "cat": {
+        "object": "https://aws.random.cat/meow",
+        "attribute": "file",
+        "entity": "animals"
+    },
+    "dog": {
+        "object": "https://dog.ceo/api/breeds/image/random",
+        "attribute": "message",
+        "entity": "animals"
+    },
+    "duck": {
+        "object": "https://random-d.uk/api/v1/random?type=png",
+        "attribute": "url",
+        "entity": "animals"
+    },
+    "fox": {
+        "object": "https://randomfox.ca/floof",
+        "attribute": "image",
+        "entity": "animals"
+    },
+    "lizard": {
+        "object": "https://nekos.life/api/v2/img/lizard",
+        "attribute": "url",
+        "entity": "animals"
+    },
+    "owl": {
+        "object": "http://pics.floofybot.moe/owl",
+        "attribute": "image",
+        "entity": "animals"
+    },
+    
+    "memes": {
+        "object": "https://meme-api.herokuapp.com/gimme",
+        "attribute": "url",
+        "entity": "memes"
+    },
+
+    "pikachu": {
+        "object": "https://some-random-api.ml/img/pikachu",
+        "attribute": "link",
+        "entity": "pikachu"
+    }
+}
