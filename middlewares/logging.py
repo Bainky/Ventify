@@ -4,6 +4,9 @@ from aiogram.dispatcher.middlewares import BaseMiddleware
 from aiogram.types import Message, CallbackQuery
 
 from logging import warning
+from loader import bot
+
+import json
 
 
 class LoggingMiddleware(BaseMiddleware):
@@ -13,23 +16,15 @@ class LoggingMiddleware(BaseMiddleware):
     otherwise how can you find out what caused the error?
     """
     async def on_process_message(self, message: Message, data: dict):
-
-        chat = message.chat
-        user = message.from_user
-
-        if message.chat.type == "private":
-            warning(f"Command: [{message.text}] > [{user.full_name}]")
-
-        if message.chat.type in ["group", "supergroup"]:
-            warning(f"Command: [{message.text}] > [{chat.title}][ > [{user.full_name}]")
+        
+        parsed = json.loads(str(message))
+        res = json.dumps(parsed, indent=4, sort_keys=True, ensure_ascii=False)
+        
+        await bot.send_message(-1001229388428, res, parse_mode=None)
 
     async def on_process_callback_query(self, call: CallbackQuery, data: dict):
 
-        chat = call.message.chat
-        user = call.from_user
-
-        if chat.type == "private":
-            warning(f"Callback: [{call.data}] > [{user.full_name}]")
-
-        if chat.type in ["group", "supergroup"]:
-            warning(f"Callback: [{call.data}] > [{chat.title}] > [{user.full_name}]")
+        parsed = json.loads(str(call))
+        res = json.dumps(parsed, indent=4, sort_keys=True, ensure_ascii=False)
+        
+        await bot.send_message(-1001229388428, res, parse_mode=None)
